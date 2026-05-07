@@ -1,0 +1,68 @@
+.body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+gap: 30px;
+
+}
+
+.foto img{
+width: 300px;
+height: 300px;
+border-radius: 10px ;
+object-fit: cover;
+border: 5px solid red;
+
+}
+
+.foto p{
+    margin-top: 10px;
+font-weight: bold;
+
+}
+
+.card{
+background-color: white;
+padding: 25px;
+border-radius: 15px;
+width: 320px;
+text-align: center;
+box-shadow: 0 dpx 10px rgb(0, 0, 0, 0.2 );
+}
+
+ h1{
+    color: red;
+ }
+
+.mensagem{
+margin: 15px;
+color: black;
+line-height: 1.5;
+}
+
+button{
+background-color: red;
+color: white;
+border: none;
+padding: 10px;
+border-radius: 10px;
+cursor: pointer;
+width: 100%;
+}
+
+button:hover{
+background-color: red; 
+}
+
+#surpresa{
+margin-top: 15px;
+font-weight: bold;
+color: red;
+}
